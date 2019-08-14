@@ -33,14 +33,14 @@ class Resume extends Component {
         ],
         datasets: [
           {
-            label: "Languages",
+            label: "Years of experience/use",
             fill: true,
             backgroundColor: "rgba(255,99,132,0.2)",
             borderColor: "rgba(255,99,132,1)",
             pointBorderColor: "#fff",
             pointBackgroundColor: "rgba(255,99,132,1)",
             pointBorderColor: "#fff",
-            data: [100, 80, 100, 100, 80, 80, 80, 70, 60]
+            data: [3, 3, 4, 3, 5, 5, 5, 3, 4]
           }
         ]
       }
@@ -61,7 +61,6 @@ class Resume extends Component {
             </div>
 
             <h2 style={{ paddingTop: "2em" }}>Indrajeet Aditya Roy</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
               Hello! I'm Indrajeet Aditya Roy, a sophomore currently pursuing
@@ -102,12 +101,7 @@ class Resume extends Component {
             />
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Skills</h2>
-            <Skills skill="javascript" progress={100} />
-            <Skills skill="HTML/CSS" progress={80} />
-            <Skills skill="NodeJS" progress={50} />
-            <Skills skill="React" progress={25} />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
+
             <h2>Skills</h2>
             <Chart chartData={this.state.chartData} legendPosition="top" />
           </Cell>

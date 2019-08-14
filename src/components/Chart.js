@@ -31,11 +31,13 @@ class Chart extends Component {
               display: this.props.displayLegend,
               position: this.props.legendPosition
             },
-            ticks: {
-              beginAtZero: true,
-              min: 0,
-              max: 100,
-              stepSize: 20
+            scale: {
+              ticks: {
+                beginAtZero: true,
+                min: 0,
+                max: 5,
+                stepSize: 1
+              }
             }
           }}
         />

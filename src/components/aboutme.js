@@ -11,6 +11,10 @@ class Aboutme extends Component {
             <img src="" alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Hello! My name is Indrajeet Aditya Roy and welcome to my website!
+              I'm a sophomore currently pursuing Computer Engineering at Iowa
+              State University. My goal is to gain knowledge and expertise in
+              order to contribute significantly to the world of Computing and
+              continue to grow professionally.
             </p>
           </Cell>
         </Grid>
