@@ -8,11 +8,7 @@ class Aboutme extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Indrajeet Aditya Roy</h2>
-            <img
-              src="./img/portrait.jpg"
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
+            <img src="" alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Hello! My name is Indrajeet Aditya Roy and welcome to my website!
             </p>

@@ -60,56 +60,47 @@ class Resume extends Component {
               />
             </div>
 
-            <h2 style={{ paddingTop: "2em" }}>Paul Hanna</h2>
+            <h2 style={{ paddingTop: "2em" }}>Indrajeet Aditya Roy</h2>
             <h4 style={{ color: "grey" }}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              Hello! I'm Indrajeet Aditya Roy, a sophomore currently pursuing
+              Computer Engineering at Iowa State University. My goal is to gain
+              knowledge and expertise in order to contribute significantly to
+              the world of Computing and continue to grow professionally.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p> 2279 Friley Stanton, 212 Beyer Court, Ames, Iowa 50012</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>267-2699650</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>iaroy@iastate.edu</p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2016}
+              endYear={2018}
+              schoolName="Victoria International School, United Arab Emirates"
+              schoolDescription="I obtained a diploma from the IBDP program"
             />
             <Education
-              startYear={2007}
-              endYear={2009}
-              schoolName="My 2nd University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2018}
+              endYear={2022}
+              schoolName="Iowa State University"
+              schoolDescription="I am currently enrolled in the Computer Engeneering program."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2018}
+              endYear={2019}
+              jobName="Dining Worker at ISU Dining"
+              jobDescription="I was working in cohesion with various team members in order to ensure the smooth and successful functioning of the ISU dining services."
             />
-            <Experience
-              startYear={2012}
-              endYear={2016}
-              jobName="Second Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-            />
+
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
             <Skills skill="javascript" progress={100} />

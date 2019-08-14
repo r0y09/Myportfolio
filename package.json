@@ -2,6 +2,7 @@
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://r0y09.github.io/Myportfolio",
   "dependencies": {
     "chart.js": "^2.8.0",
     "gh-pages": "^2.1.1",
@@ -33,7 +34,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "homepage": "https://r0y09.github.io/Myportfolio"
+    ]
   }
 }
