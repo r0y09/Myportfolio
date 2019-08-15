@@ -40,9 +40,7 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-
-              <Button colored href="asteroid.html">
+              <Button colored href="https://r0y09.github.io/package/">
                 Live Demo
               </Button>
             </CardActions>
