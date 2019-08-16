@@ -62,9 +62,12 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button
+                colored
+                href="https://r0y09.github.io/rock-paper-scissors/"
+              >
+                Live Demo
+              </Button>
             </CardActions>
           </Card>
           {/* Project 3 */}
@@ -84,8 +87,6 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
@@ -106,8 +107,6 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
@@ -133,8 +132,6 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
@@ -155,8 +152,6 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
@@ -177,8 +172,6 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
@@ -204,8 +197,6 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
@@ -226,8 +217,6 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
