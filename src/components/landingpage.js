@@ -8,18 +8,20 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
+              src="https://media.licdn.com/dms/image/C4E03AQH8WUlxh68pww/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=tUBPokEGNa8tRyiDc5RWqAcHEr5672QAN0FJSTmZ13c"
               alt="avatar"
               className="avatar-img"
             />
             <div className="banner-text">
               <h1>Hello World !</h1>
-              <p> Welcome to my portfolio.</p>
+              <p>
+                My name is Indrajeet Aditya Roy and welcome to my portfolio.
+              </p>
               <hr />
               <p>Programmer | Web Developer | Student</p>
               <div className="social-links">
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/in/indrajeet-aditya-roy"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

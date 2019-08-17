@@ -12,7 +12,8 @@ class Chart extends Component {
   static defaultProps = {
     displayTitle: true,
     displayLegend: true,
-    legendPosition: "right"
+    legendPosition: "right",
+    text: "skills"
   };
 
   render() {
@@ -23,7 +24,7 @@ class Chart extends Component {
           options={{
             title: {
               display: this.props.displayTitle,
-              text: "Programming Languages",
+              text: this.props.text,
               fontSize: 25,
               fontColor: "#F85F73"
             },
@@ -36,7 +37,13 @@ class Chart extends Component {
                 beginAtZero: true,
                 min: 0,
                 max: 5,
-                stepSize: 1
+                stepSize: 1,
+                fontStyle: "bold",
+                fontSize: 15
+              },
+              pointLabels: {
+                fontSize: 15,
+                fontColor: "black"
               }
             }
           }}

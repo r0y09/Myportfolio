@@ -30,14 +30,15 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                  "url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/full/javascriptlang.png) center / cover"
               }}
             >
-              React Project #1
+              JavaScript Project #1
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              A simple Tic-Tac-Toe game created using vanilla JavaScript, HTML5
+              and CSS. Additionally, I also implemented the Minimax Algorithm to
+              play around with an AI element.
             </CardText>
             <CardActions border>
               <Button colored href="https://r0y09.github.io/package/">
@@ -52,14 +53,15 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png) center / cover"
+                  "url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/full/javascriptlang.png) center / cover"
               }}
             >
-              React Project #2
+              JavaScript Project #2
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              A simple Rock-Paper-scissors game created using vanilla
+              JavaScript, HTML5 and SCSS.Additionally, I also implemented the
+              Minimax Algorithm to play around with an AI element.
             </CardText>
             <CardActions border>
               <Button
