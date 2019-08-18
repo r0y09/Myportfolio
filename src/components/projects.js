@@ -100,17 +100,18 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                  "url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/full/javascriptlang.png) center / cover"
               }}
             >
-              React Project #3
+              JavaScript Project #4
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              A chess engine built using jQuery,HTML5 and CSS.
             </CardText>
             <CardActions border>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://r0y09.github.io/chess/">
+                Live Demo
+              </Button>
             </CardActions>
           </Card>
         </div>
