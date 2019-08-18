@@ -24,12 +24,6 @@ class Resume extends Component {
           "Python",
           "Java",
           "Javascript",
-          "Angular.js",
-          "React.js",
-          "Vue.js",
-          "Express.js",
-          "NodeJS",
-          "MongoDB",
           "HTML",
           "CSS",
           "SCSS",
@@ -46,7 +40,7 @@ class Resume extends Component {
             pointBorderColor: "#fff",
             pointHoverRadius: 10,
             pointHoverColor: "red",
-            data: [3, 3, 4, 3, 5, 5, 5, 3, 4, 4, 5, 5, 3, 4]
+            data: [3, 3, 4, 3, 5, 5, 5, 4, 3]
           }
         ]
       },
