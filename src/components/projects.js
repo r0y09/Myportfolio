@@ -60,8 +60,7 @@ class Projects extends Component {
             </CardTitle>
             <CardText>
               A simple Rock-Paper-scissors game created using vanilla
-              JavaScript, HTML5 and SCSS.Additionally, I also implemented the
-              Minimax Algorithm to play around with an AI element.
+              JavaScript, HTML5 and SCSS.
             </CardText>
             <CardActions border>
               <Button
@@ -79,17 +78,19 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://vuejs.org/images/logo.png) center / cover"
+                  "url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/full/javascriptlang.png) center / cover"
               }}
             >
-              React Project #3
+              JavaScript Project #3
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              A simple snake game built using Vanilla JavaScript, HTML5 and
+              SCSS.
             </CardText>
             <CardActions border>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://r0y09.github.io/snake/">
+                Live Demo
+              </Button>
             </CardActions>
           </Card>
           {/* Project 3 */}
