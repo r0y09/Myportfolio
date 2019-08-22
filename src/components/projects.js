@@ -129,7 +129,7 @@ class Projects extends Component {
                   "url(https://pbs.twimg.com/profile_images/439154912719413248/pUBY5pVj_400x400.png) center / cover"
               }}
             >
-              Angular Project #1
+              Python Project #1
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -149,7 +149,7 @@ class Projects extends Component {
                   "url(https://pbs.twimg.com/profile_images/439154912719413248/pUBY5pVj_400x400.png) center / cover"
               }}
             >
-              Angular Project #2
+              Python Project #2
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -169,7 +169,7 @@ class Projects extends Component {
                   "url(https://pbs.twimg.com/profile_images/439154912719413248/pUBY5pVj_400x400.png) center / cover"
               }}
             >
-              Angular Project #3
+              Python Project #3
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -194,7 +194,7 @@ class Projects extends Component {
                   "url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png) center / cover"
               }}
             >
-              React Project #1
+              Java Project #1
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -214,7 +214,7 @@ class Projects extends Component {
                   "url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png) center / cover"
               }}
             >
-              React Project #2
+              Java Project #2
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -234,7 +234,7 @@ class Projects extends Component {
                   "url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png) center / cover"
               }}
             >
-              React Project #3
+              Java Project #3
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
