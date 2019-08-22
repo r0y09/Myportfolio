@@ -40,7 +40,7 @@ class Resume extends Component {
             pointBorderColor: "#fff",
             pointHoverRadius: 10,
             pointHoverColor: "red",
-            data: [3, 3, 4, 3, 5, 5, 5, 4, 3]
+            data: [2, 2, 3, 2, 4, 4, 4, 3, 2]
           }
         ]
       },
@@ -56,7 +56,8 @@ class Resume extends Component {
           "Git",
           "Command Line",
           "Trello",
-          "Jira"
+          "Jira",
+          "MongoDB"
         ],
         datasets: [
           {
@@ -69,7 +70,7 @@ class Resume extends Component {
             pointBorderColor: "#fff",
             pointHoverRadius: 10,
             pointHoverColor: "red",
-            data: [4, 4, 4, 4, 2, 3, 3, 4, 3, 2, 3]
+            data: [3, 3, 3, 4, 1, 2, 3, 4, 4, 1, 2]
           }
         ]
       },
@@ -86,7 +87,44 @@ class Resume extends Component {
             pointBorderColor: "#fff",
             pointHoverRadius: 10,
             pointHoverColor: "red",
-            data: [5, 4, 3, 5, 5]
+            data: [4, 3, 2, 4, 4]
+          }
+        ]
+      },
+      chartData4: {
+        labels: [
+          "ReactJS",
+          "AngularJS",
+          "Vue.js",
+          "Node.js",
+          "Express.js",
+          "Bootstrap",
+          "D3.js",
+          "jQuery",
+          "Phaser.js",
+          "Django",
+          "Flask",
+          "Requests",
+          "BeautifulSoup",
+          "NumPy",
+          "PyGame",
+          "pyQt5",
+          "matplotlib",
+          "tensorflow",
+          "tflearn"
+        ],
+        datasets: [
+          {
+            label: "Years of experience/use",
+            fill: true,
+            data: [4, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 2, 3, 3, 2, 1, 1],
+            backgroundColor: "rgba(255,99,132,0.2)",
+            borderColor: "rgba(255,99,132,1)",
+            pointBorderColor: "#fff",
+            pointBackgroundColor: "rgba(255,99,132,1)",
+            pointBorderColor: "#fff",
+            pointHoverRadius: 10,
+            pointHoverColor: "red"
           }
         ]
       }
@@ -116,6 +154,15 @@ class Resume extends Component {
               chartData={this.state.chartData2}
               legendPosition="top"
               text="Programming Tools"
+            />
+            <br />
+            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <br />
+            <br />
+            <Chart
+              chartData={this.state.chartData4}
+              legendPosition="top"
+              text="Programming frameworks and libraries"
             />
             <br />
             <br />

@@ -36,7 +36,7 @@ class Chart extends Component {
               ticks: {
                 beginAtZero: true,
                 min: 0,
-                max: 5,
+                max: 4,
                 stepSize: 1,
                 fontStyle: "bold",
                 fontSize: 15
