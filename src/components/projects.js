@@ -114,6 +114,30 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/full/javascriptlang.png) center / cover"
+              }}
+            >
+              JavaScript Project #5
+            </CardTitle>
+            <CardText>
+              A replica of freelancer website, where individuals can post job
+              proposals with job details such as skills required, job
+              descritpion, estimated fee and contanct email. The application was
+              built using Vanilla JavaScript, Node.js and Handlebars.
+            </CardText>
+            <CardActions border>
+              <Button colored href="https://github.com/r0y09/mockfreelancer">
+                GitHub
+              </Button>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
@@ -132,11 +156,13 @@ class Projects extends Component {
               Python Project #1
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              A simple mspaint replica built using python. Libraries used
+              include pygame and tkinter libraries.
             </CardText>
             <CardActions border>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/r0y09/simplemspaint">
+                GitHub
+              </Button>
             </CardActions>
           </Card>
           {/* Project 2 */}
