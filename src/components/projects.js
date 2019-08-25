@@ -130,7 +130,8 @@ class Projects extends Component {
               A replica of freelancer website, where individuals can post job
               proposals with job details such as skills required, job
               descritpion, estimated fee and contanct email. The application was
-              built using Vanilla JavaScript, Node.js and Handlebars.
+              built using Vanilla JavaScript, Node.js, postgresSQL and
+              Handlebars.
             </CardText>
             <CardActions border>
               <Button colored href="https://github.com/r0y09/mockfreelancer">
@@ -360,7 +361,6 @@ class Projects extends Component {
           <Tab>Python</Tab>
           <Tab>C/C++</Tab>
           <Tab>Java</Tab>
-          <Tab>Other</Tab>
         </Tabs>
 
         <Grid>
