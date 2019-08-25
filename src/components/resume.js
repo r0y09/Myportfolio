@@ -40,7 +40,7 @@ class Resume extends Component {
             pointBorderColor: "#fff",
             pointHoverRadius: 10,
             pointHoverColor: "red",
-            data: [2, 2, 3, 2, 4, 4, 4, 3, 2]
+            data: [3, 2, 3, 3, 4, 4, 4, 3, 2]
           }
         ]
       },
@@ -57,7 +57,8 @@ class Resume extends Component {
           "Command Line",
           "Trello",
           "Jira",
-          "MongoDB"
+          "MongoDB",
+          "postgresSQL"
         ],
         datasets: [
           {
@@ -70,7 +71,7 @@ class Resume extends Component {
             pointBorderColor: "#fff",
             pointHoverRadius: 10,
             pointHoverColor: "red",
-            data: [3, 3, 3, 4, 1, 2, 3, 4, 4, 1, 2]
+            data: [3, 3, 3, 4, 1, 2, 3, 4, 4, 1, 2, 2]
           }
         ]
       },
