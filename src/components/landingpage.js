@@ -28,7 +28,7 @@ class Landing extends Component {
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/r0y09/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

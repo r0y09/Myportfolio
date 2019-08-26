@@ -9,6 +9,7 @@ import {
   CardText,
   CardActions,
   Button,
+  CardMedia,
   CardMenu,
   IconButton
 } from "react-mdl";
@@ -24,7 +25,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -154,11 +155,33 @@ class Projects extends Component {
             <CardText>
               A personal portfolio page displaying a brief indtroduction,
               skills, projects and contact information. The application was
-              built using RecatJS.
+              built using ReactJS.
             </CardText>
             <CardActions border>
               <Button colored href="https://indrajeet-aditya-roy.herokuapp.com">
                 Demo
+              </Button>
+            </CardActions>
+          </Card>
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/full/javascriptlang.png) center / cover"
+              }}
+            >
+              JavaScript Project #7
+            </CardTitle>
+            <CardText>
+              A simple replica of the 1980's astroids video game built using
+              HTML5, Vanilla JavaScript and CSS.
+            </CardText>
+            <CardActions border>
+              <Button colored href="https://github.com/r0y09/astroidgame">
+                Github
               </Button>
             </CardActions>
           </Card>
