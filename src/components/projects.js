@@ -183,7 +183,9 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/r0y09/simplemspaint">
+                GitHub
+              </Button>
             </CardActions>
           </Card>
           {/* Project 3 */}
@@ -203,7 +205,9 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/r0y09/simplemspaint">
+                GitHub
+              </Button>
             </CardActions>
           </Card>
         </div>
