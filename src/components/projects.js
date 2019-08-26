@@ -139,6 +139,29 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/full/javascriptlang.png) center / cover"
+              }}
+            >
+              JavaScript Project #6
+            </CardTitle>
+            <CardText>
+              A personal portfolio page displaying a brief indtroduction,
+              skills, projects and contact information. The application was
+              built using RecatJS.
+            </CardText>
+            <CardActions border>
+              <Button colored href="https://indrajeet-aditya-roy.herokuapp.com">
+                Demo
+              </Button>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
