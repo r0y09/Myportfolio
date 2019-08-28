@@ -319,8 +319,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
         </div>
@@ -346,8 +344,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
           {/* Project 2 */}
@@ -368,8 +364,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
           {/* Project 3 */}
@@ -390,8 +384,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
         </div>
