@@ -259,6 +259,132 @@ class Projects extends Component {
         </div>
       );
     } else if (this.state.activeTab === 2) {
+      return (
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/141px-Java_programming_language_logo.svg.png) center / cover"
+              }}
+            >
+              Java Project #1
+            </CardTitle>
+            <CardText>
+              A simple tetris-like game built using Java and Java swing. The
+              user is able to play via the keyboard keys.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/141px-Java_programming_language_logo.svg.png) center / cover"
+              }}
+            >
+              Java Project #2
+            </CardTitle>
+            <CardText>
+              A simulation of a game of cricket built using Java. The user is
+              able to input parameters such as number of teams, players and
+              overs and the game engine would simulate the game with the
+              Parameters and output the winner and the final scores and
+              statistics of the match.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+          </Card>
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/141px-Java_programming_language_logo.svg.png) center / cover"
+              }}
+            >
+              Java Project #3
+            </CardTitle>
+            <CardText>
+              A simulation of an uber ride built using Java. The user is able to
+              input parameters such as number of passengers, stops, and distance
+              and the program would simulate the uber ride with the Parameters
+              and output the final costs such as the ride, and the additional
+              costs such as the fuel.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+          </Card>
+        </div>
+      );
+    } else if (this.state.activeTab === 3) {
+      return (
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png) center / cover"
+              }}
+            >
+              C Project #1
+            </CardTitle>
+            <CardText></CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png) center / cover"
+              }}
+            >
+              C Project #2
+            </CardTitle>
+            <CardText></CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+          </Card>
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png) center / cover"
+              }}
+            >
+              C Project #3
+            </CardTitle>
+            <CardText></CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+          </Card>
+        </div>
+      );
     }
   }
 
@@ -272,8 +398,8 @@ class Projects extends Component {
         >
           <Tab>JavaScript</Tab>
           <Tab>Python</Tab>
-          <Tab>C/C++</Tab>
           <Tab>Java</Tab>
+          <Tab>C/C++</Tab>
         </Tabs>
 
         <Grid>
