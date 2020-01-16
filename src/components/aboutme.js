@@ -9,16 +9,16 @@ class Aboutme extends Component {
           <Cell col={6}>
             <h2>Indrajeet Aditya Roy</h2>
             <img
-              src="https://media.licdn.com/dms/image/C4E03AQGgBwK8SyUPWA/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=1eRAQsjSVyBy4XvsWvLuNFyxCK4z_-waXyKe7pe4FBk"
+              src="https://d1b10bmlvqabco.cloudfront.net/photos/jqsmuf1wTO50/1579163587_200.jpg"
               alt="avatar"
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Hello! My name is Indrajeet Aditya Roy and welcome to my website!
-              I'm a student currently pursuing Computer Engineering at Iowa
-              State University. My goal is to gain knowledge and expertise in
-              order to contribute significantly to the world of Computing and
-              continue to grow professionally.
+              I'm a student currently pursuing Computer Engineering with a minor
+              in cyber security at Iowa State University. My goal is to gain
+              knowledge and expertise in order to contribute significantly to
+              the world of Computing and continue to grow professionally.
             </p>
           </Cell>
         </Grid>

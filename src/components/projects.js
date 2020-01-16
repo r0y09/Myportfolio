@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {
+  Avatar,
   Tabs,
   Tab,
   Grid,
@@ -8,10 +9,12 @@ import {
   CardTitle,
   CardText,
   CardActions,
+  CardHeader,
   Button,
   CardMedia,
   CardMenu,
-  IconButton
+  IconButton,
+  MoreVertIcon
 } from "react-mdl";
 
 class Projects extends Component {
@@ -25,7 +28,10 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450" }}>
+          <Card
+            shadow={5}
+            style={{ width: "320px", height: "400px", margin: "auto" }}
+          >
             <CardTitle
               style={{
                 color: "#fff",
@@ -41,14 +47,18 @@ class Projects extends Component {
               and CSS. Additionally, I also implemented the Minimax Algorithm to
               play around with an AI element.
             </CardText>
+
             <CardActions border>
               <Button colored href="https://r0y09.github.io/package/">
-                Live Demo
+                Demo
               </Button>
             </CardActions>
           </Card>
           {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={5}
+            style={{ width: "320px", height: "400px", margin: "auto" }}
+          >
             <CardTitle
               style={{
                 color: "#fff",
@@ -68,12 +78,19 @@ class Projects extends Component {
                 colored
                 href="https://r0y09.github.io/rock-paper-scissors/"
               >
-                Live Demo
+                Demo
               </Button>
             </CardActions>
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={5}
+            style={{
+              width: "320px",
+              height: "400px",
+              margin: "auto"
+            }}
+          >
             <CardTitle
               style={{
                 color: "#fff",
@@ -90,12 +107,15 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored href="https://r0y09.github.io/snake/">
-                Live Demo
+                Demo
               </Button>
             </CardActions>
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={5}
+            style={{ width: "320px", height: "400px", margin: "auto" }}
+          >
             <CardTitle
               style={{
                 color: "#fff",
@@ -111,12 +131,15 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored href="https://r0y09.github.io/chess/">
-                Live Demo
+                Demo
               </Button>
             </CardActions>
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={5}
+            style={{ width: "320px", height: "400px", margin: "auto" }}
+          >
             <CardTitle
               style={{
                 color: "#fff",
@@ -141,7 +164,10 @@ class Projects extends Component {
             </CardActions>
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={5}
+            style={{ width: "320px", height: "400px", margin: "auto" }}
+          >
             <CardTitle
               style={{
                 color: "#fff",
@@ -164,7 +190,10 @@ class Projects extends Component {
             </CardActions>
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={5}
+            style={{ width: "320px", height: "400px", margin: "auto" }}
+          >
             <CardTitle
               style={{
                 color: "#fff",

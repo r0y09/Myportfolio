@@ -8,10 +8,11 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://media.licdn.com/dms/image/C4E03AQGgBwK8SyUPWA/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=1eRAQsjSVyBy4XvsWvLuNFyxCK4z_-waXyKe7pe4FBk"
+              src="https://www.macworld.co.uk/cmsdata/features/3608274/Terminalicon2_thumb800.png"
               alt="avatar"
               className="avatar-img"
             />
+
             <div className="banner-text">
               <h1>Hello World !</h1>
               <p>

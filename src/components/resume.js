@@ -27,7 +27,8 @@ class Resume extends Component {
           "HTML",
           "CSS",
           "SCSS",
-          "SQL"
+          "SQL",
+          "Kotlin"
         ],
         datasets: [
           {
@@ -40,7 +41,7 @@ class Resume extends Component {
             pointBorderColor: "#fff",
             pointHoverRadius: 10,
             pointHoverColor: "red",
-            data: [3, 2, 3, 3, 4, 4, 4, 3, 2]
+            data: [3, 2, 3, 3, 4, 4, 4, 3, 2, 1]
           }
         ]
       },
@@ -191,7 +192,7 @@ class Resume extends Component {
             />
             <br />
             <br />
-            <h2>Other Skills</h2>
+            <h2>Additional Skills</h2>
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <br />
             <br />
